@@ -57,4 +57,11 @@ public class main {
 
         return "success";
     }
+
+    @PostMapping(value = "/hello")
+    @ApiOperation(value = "你好人类",notes = "")
+    public String helloUser(){
+
+        return "";
+    }
 }
