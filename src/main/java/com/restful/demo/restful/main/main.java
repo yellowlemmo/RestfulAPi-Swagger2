@@ -55,7 +55,7 @@ public class main {
     @RequestMapping(value = "/{id}",method = RequestMethod.DELETE)
     public String deleteUser(@PathVariable String id){
 
-        return "success";
+        return "success  ";
     }
 
 //    @PostMapping(value = "/hello")
