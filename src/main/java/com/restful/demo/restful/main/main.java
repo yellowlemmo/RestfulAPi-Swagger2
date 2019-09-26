@@ -50,7 +50,7 @@ public class main {
     }
 
 
-    @ApiOperation(value = "删除用户",notes = "根据id删除用户")
+    @ApiOperation(value = "删除用户",notes = "通过id删除用户")
     @ApiImplicitParam(name = "id",value = "用户id",required = true,dataType = "String")
     @RequestMapping(value = "/{id}",method = RequestMethod.DELETE)
     public String deleteUser(@PathVariable String id){
